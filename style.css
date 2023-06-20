@@ -54,11 +54,10 @@ body {
 /*Style the front of the card*/
 .cardFront {
     position: relative;
-    background: hsla(313, 38%, 61%, 1);
-    background: linear-gradient(120deg, hsla(313, 38%, 61%, 1) 23%, hsla(217, 100%, 77%, 1) 100%);
-    background: -moz-linear-gradient(120deg, hsla(313, 38%, 61%, 1) 23%, hsla(217, 100%, 77%, 1) 100%);
-    background: -webkit-linear-gradient(120deg, hsla(313, 38%, 61%, 1) 23%, hsla(217, 100%, 77%, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#C276B1", endColorstr="#8AB7FF", GradientType=0);
+    height: 10vh;
+    background-image: url(./assets/Stitch.jpg);
+ 
+    background-position: center;
     width: 250px;
     height: 350px;
     overflow: hidden;
