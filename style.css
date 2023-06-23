@@ -240,7 +240,11 @@ body {
 /*Style the inside part of the card*/
 .cardInside {
     position: absolute;
-    background: rgba(188, 145, 201, 0.692);
+    background: hsla(0, 93%, 61%, 1);
+    background: linear-gradient(130deg, hsla(0, 93%, 61%, 1) 4%, hsla(306, 75%, 56%, 1) 54%, hsla(306, 88%, 51%, 1) 100%);
+    background: -moz-linear-gradient(130deg, hsla(0, 93%, 61%, 1) 4%, hsla(306, 75%, 56%, 1) 54%, hsla(306, 88%, 51%, 1) 100%);
+    background: -webkit-linear-gradient(130deg, hsla(0, 93%, 61%, 1) 4%, hsla(306, 75%, 56%, 1) 54%, hsla(306, 88%, 51%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F84141", endColorstr="#E33AD2", GradientType=1 );
     width: 250px;
     height: 350px;
     z-index: -1;
@@ -265,5 +269,6 @@ body {
 .p {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 700;
+    font-size: 30px;
     color: #000000;
 }
